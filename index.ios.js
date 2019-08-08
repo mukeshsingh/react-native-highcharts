@@ -14,10 +14,9 @@ import {
 import ChartView from './App/index.js';
 
 export default class chartWebView extends Component {
-
-   constructor(props){
-    super(props);
-  }
+    constructor(props){
+        super(props);
+    }
     render() {
     var Highcharts='Highcharts';
     var conf={
